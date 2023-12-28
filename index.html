@@ -15,11 +15,24 @@
   </head>
   <body>
     <div class="container">
-      <div class="header">
+      <header class="header">
         <h2 class="title">Live User Filter</h2>
         <small class="subtitle">Search by name and/or location</small>
         <input type="text" id="filter" placeholder="Search..." />
-      </div>
+      </header>
+
+      <ul id="result" class="user-result">
+        <li>
+          <img
+            src="https://randomuser.me/api/portraits/women/33.jpg"
+            alt="user-image"
+          />
+          <div class="user-info">
+            <h4>Sara Smith</h4>
+            <p>Wexford, Ireland</p>
+          </div>
+        </li>
+      </ul>
     </div>
 
     <script src="script.js"></script>
