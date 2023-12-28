@@ -78,3 +78,35 @@ body {
   outline: 1px solid slategrey;
   border-radius: 50px;
 }
+
+.user-list li {
+  display: flex;
+  padding: 20px;
+}
+
+.user-list li img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-list .user-info {
+  margin-left: 10px;
+}
+
+.user-list .user-info h4 {
+  margin: 0 0 10px;
+}
+
+.user-list .user-info p {
+  font-size: 14px;
+}
+
+.user-list li:not(:last-of-type) {
+  border-bottom: 2px solid #eee;
+}
+
+.user-list li.hide {
+  display: none;
+}
